@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+cv_module/.venv/
+build/
+dist/
+
+# Downloaded models and sample media (fetch with: interview-cv download-models --samples)
+cv_module/models/*
+!cv_module/models/README.md
+cv_module/samples/*
+!cv_module/samples/README.md
+
+# Analysis outputs
+*.jsonl
+report.json
+observations.json
+annotated*.mp4
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
